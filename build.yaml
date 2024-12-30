@@ -20,4 +20,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: DRTKB
+    shield: DRTKB_left
+  - board: nice_nano_v2
+    shield: DRTKB_right
