@@ -1,2 +1,5 @@
-config SHIELD_DRTKB
-    def_bool $(shields_list_contains, DRTKB)
+config SHIELD_DRTKB_LEFT
+    def_bool $(shields_list_contains, DRTKB_left)
+
+config SHIELD_DRTKB_RIGHT
+    def_bool $(shields_list_contains, DRTKB_right)
