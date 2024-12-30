@@ -1,16 +1,11 @@
 if SHIELD_DRTKB_LEFT
-
 config ZMK_KEYBOARD_NAME
     default "DRTKB"
-
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
-
 if SHIELD_DRTKB_LEFT || SHIELD_DRTKB_RIGHT
-
 config ZMK_SPLIT
 	default y
-
 endif
